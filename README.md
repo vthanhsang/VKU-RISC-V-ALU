@@ -6,7 +6,6 @@ RISC-V ALU 32bit base on Ibex and in this project i use 2 main tool is Icarus-Ve
 ```bash
 git clone https://github.com/vthanhsang/VKU-RISC-V-ALU.git
 
-```bash
 iverilog -o cpu.vvp cpu_tb.v cpu.v alu.v control.v regfile.v imem.v dmem.v 
 
 vvp cpu.vvp 
