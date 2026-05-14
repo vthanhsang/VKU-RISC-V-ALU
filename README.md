@@ -11,7 +11,7 @@ iverilog -o cpu.vvp cpu_tb.v cpu.v alu.v control.v regfile.v imem.v dmem.v
 vvp cpu.vvp 
 
 gtkwave .\dump.vcd 
-
+```
 ## Requirement
 
 link tool compile: https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases?utm_source=chatgpt.com
